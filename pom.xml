@@ -1,7 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          https://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> b7166b601bcb45e9f31b1dc004c5e674896ecd1f
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -12,17 +16,27 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+<<<<<<< HEAD
     </properties>
 
     <dependencies>
 
+=======
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+>>>>>>> b7166b601bcb45e9f31b1dc004c5e674896ecd1f
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> b7166b601bcb45e9f31b1dc004c5e674896ecd1f
     </dependencies>
 
 </project>
